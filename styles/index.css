@@ -1,0 +1,241 @@
+body {
+  width: 392px;
+  margin: 10px auto;
+  background-image: url("img/fanhammer_bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  font-family: 'Heebo', sans-serif;
+  background-color: #000;
+}
+
+.fanhammer {
+  height: 85px;
+  width: auto;
+  text-align: center;
+
+}
+
+img {
+  width: auto; 
+  max-height: 100%; 
+  margin: 0 auto;
+}
+
+.header_menu {
+  color: #fff;
+}
+
+.navigation {
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.navigation a {
+  text-decoration: none;
+}
+
+#active_menu {
+  text-decoration: underline;
+}
+
+.content {
+  color: #fff;
+}
+
+.card {
+  display: grid;
+  position: relative;
+  place-items: center;
+  height: 533px;
+  width: 392px;
+  background-color: rgba(255, 255, 255, 0);/*#606060;*/
+}
+
+.card_frame {
+  display: block;
+  height: 498px;
+  width: 354px;
+  -webkit-border-radius: 17px;
+  border-radius: 17px;
+  background-color: #e2e2dd;
+}
+
+.card_header {
+  display: block;
+  height: 69px;
+  margin: 0 15px;
+}
+
+.card_role {
+  position: relative;
+  float: left;
+  width: 54px;
+  height: 69px;
+}
+
+.card_role div {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  bottom: 0;
+}
+
+.icon {
+  display: block;
+  height: 20px;
+  width: 20px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+
+}
+
+#hq {background-image: url("svg/HQ.svg");}
+#assault {background-image: url("svg/Troops.svg");}
+#elites {background-image: url("svg/Elites.svg");}
+#fast-attack {background-image: url("svg/Fast-Attack.svg");}
+#dedicated-transport {background-image: url("svg/Dedicated-Transport.svg");}
+#flyer {background-image: url("svg/Flyer.svg");}
+#heavy-support {background-image: url("svg/Heavy-Support.svg");}
+#fortification {background-image: url("svg/Fortification.svg");}
+#lord-of-war {background-image: url("svg/Lord-of-War.svg");}
+
+#m {background-image: url("svg/Move.svg");}
+#ws {background-image: url("svg/WeaponSkill.svg");}
+#bs {background-image: url("svg/BallisticSkill.svg");}
+#s {background-image: url("svg/Strength.svg");}
+#t {background-image: url("svg/Toughness.svg");}
+#w {background-image: url("svg/Wounds.svg");}
+#a {background-image: url("svg/Attacks.svg");}
+#ld {background-image: url("svg/Leadership.svg");}
+#sv {background-image: url("svg/Save.svg");}
+
+.name {
+  float: right;
+  width: 255px;
+  height: 56px;
+  padding: 12px 0 0 0;
+  border-bottom: 3px solid #000;
+  line-height: 28px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  font-family: 'Heebo', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -2px;
+  border-bottom: 3px solid #000;
+}
+
+.heading {
+  display: grid;
+  background: #b6beba;
+  margin: 12px 15px 0 15px;
+  grid-template-rows: 30px;
+  vertical-align: middle;
+  border-bottom: 2px solid #777273;
+}
+
+.stats {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.weapon {
+  grid-template-columns: 130px 50px 50px 30px 30px 30px;
+}
+
+.weapon #value {
+  font-size: 16px;
+}
+
+.weapon_desc #desc {
+  padding: 0 12px;
+}
+
+.left {
+  text-align: left;
+  padding-left: 8px;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+
+.stats > div {
+  vertical-align: middle;
+  font-family: 'Heebo', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -1px;
+
+}
+
+.profile {
+  border-bottom: 2px solid #777273;
+  margin: 0 15px;
+}
+
+.troop {
+  display: grid;
+  width: 9fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  text-align: centre;
+  vertical-align: middle;
+  font-weight: 600;
+}
+
+.weapon {
+  display: grid;
+  width: 9fr;
+  text-align: centre;
+  vertical-align: middle;
+  font-weight: 600;
+}
+
+.odd {
+  background: #fff;
+}
+
+.even {
+  background: #dee3e0;
+}
+
+.value {
+  vertical-align: middle;
+  font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+  letter-spacing: -1px;
+}
+
+.description {
+  background: #dee3e0;
+  margin: 4px 15px;
+  padding: 0 8px;
+  vertical-align: middle;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  font-weight: 700px;
+  text-align: justify;
+  letter-spacing: -1px;
+  word-spacing: -1px;
+  line-height: 20px;
+}
+
+.keyword {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  left: 0;
+  bottom: 15px;
+  width: 354px;
+  text-align: center;
+  margin: 0 15px;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
